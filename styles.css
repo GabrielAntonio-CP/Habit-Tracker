@@ -1,0 +1,124 @@
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           background: #f5f7fb;
+           color: #333;
+       }
+
+       .main {
+           flex: 3;
+       }
+
+       .container {
+           display: flex;
+           padding: 20px;
+           gap: 20px;
+       }
+
+       /* MAIN */
+
+       h1 {
+           margin-bottom: 5px;
+       }
+
+       .progress-bar {
+           background: #ddd;
+           border-radius: 10px;
+           overflow: hidden;
+           margin: 15px 0;
+       }
+
+       .progress {
+           height: 10px;
+           width: 86%;
+           background: #3b82f6;
+       }
+
+       .habits-table {
+           width: 100%;
+           border-collapse: collapse;
+           margin-top: 20px;
+       }
+
+       .habits-table th,
+       .habits-table td {
+           text-align: center;
+           padding: 10px;
+       }
+
+       .box {
+           width: 25px;
+           height: 25px;
+           border-radius: 6px;
+           margin: auto;
+       }
+
+       .done {
+           background: #8b5cf6;
+       }
+
+       .miss {
+           background: #e5e7eb;
+       }
+
+       .bad {
+           background: #ec4899;
+       }
+
+       .good {
+           background: #10b981;
+       }
+
+       .cold {
+           background: #3b82f6;
+       }
+
+       .med {
+           background: #f59e0b;
+       }
+
+       /* SIDEBAR */
+       .sidebar {
+           flex: 1;
+           background: white;
+           padding: 15px;
+           border-radius: 10px;
+       }
+
+       .habit-card {
+           border-left: 5px solid;
+           padding: 10px;
+           margin-bottom: 15px;
+           border-radius: 8px;
+           background: #f9fafb;
+       }
+
+       .purple {
+           border-color: #8b5cf6;
+       }
+
+       .pink {
+           border-color: #ec4899;
+       }
+
+       .blue {
+           border-color: #3b82f6;
+       }
+
+       .orange {
+           border-color: #f59e0b;
+       }
+
+       .green {
+           border-color: #10b981;
+       }
+
+       button {
+           margin-top: 5px;
+           padding: 5px 10px;
+           border: none;
+           border-radius: 5px;
+           background: #3b82f6;
+           color: white;
+           cursor: pointer;
+       }
