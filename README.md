@@ -55,7 +55,7 @@ La aplicación utiliza **LocalStorage**, lo que permite:
 | ---------------------- | ---------- |
 | Hábitos predefinidos   | ✔ Cumplido |
 | Marcar hábitos         | ✔ Cumplido |
-| Registro de progreso   | ✔ Cumplido |
+| Registro de progreso   | x No Cumplido |
 | Almacenamiento local   | ✔ Cumplido |
 | Funcionamiento offline | ✔ Cumplido |
 
